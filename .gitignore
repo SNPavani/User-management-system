@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables - NEVER push these
+.env
+.env.local
+.env.railway
+.env.production
+.env.development
+server/.env
+server/.env.local
+server/.env.railway
+client/.env
+client/.env.local
+
+# Build output
+client/build/
+server/build/
+
+# Uploads (user images)
+server/uploads/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Database backups
+*.sql
+backup*.sql
+final_backup.sql
+
+# Scripts (one-time setup)
+server/scripts/
+
+echo Windows PowerShell.txt >> .gitignore
+echo cloudflared-windows-amd64.exe >> .gitignore
+echo config.yml >> .gitignore
+echo debug-db-password.js >> .gitignore
+echo fix-password.js >> .gitignore
+echo railway.json >> .gitignore
+echo test-password-debug.js >> .gitignore

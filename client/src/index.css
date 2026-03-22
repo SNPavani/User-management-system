@@ -1,0 +1,59 @@
+* {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f0fafa;
+  color: #333;
+}
+
+a {
+  color: #008b8b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2, h3 {
+  color: #007a7a;
+}
+
+input {
+  font-family: inherit;
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1.5px solid #00ced1;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #008b8b;
+}
+
+button {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border: 1.5px solid #00ced1;
+  border-radius: 6px;
+  background: #e0f7f7;
+  color: #007a7a;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #b2ebeb;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
